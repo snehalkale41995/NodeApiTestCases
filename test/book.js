@@ -43,7 +43,8 @@ describe('Books', () => {
 	  	let book = {
 	  		title: "The Lord of the Rings",
 	  		author: "J.R.R. Tolkien",
-	  		year: 1954
+			year: 1954
+		   // pages :400
 	  	}
 			chai.request(server)
 		    .post('/book')

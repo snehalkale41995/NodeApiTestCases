@@ -14,7 +14,10 @@ let options = {
               }; 
 
 //db connection      
-mongoose.connect(config.DBHost, options);
+mongoose.connect(config.DBHost, options)
+.then(() => console.log("Connected to MongoDB..."))
+  .catch(err => console.error(err));
+  
 let db = mongoose.connection;
 db.on('error', console.error.bind(console, 'connection error:'));
 

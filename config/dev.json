@@ -1,3 +1,4 @@
 {
-	"DBHost": "YOUR_DB_URI"
+	"DBHost" : "mongodb+srv://snehalkale41995:espl123@cluster0.kvfbz.mongodb.net/BookDb?retryWrites=true&w=majority"
 }
+
